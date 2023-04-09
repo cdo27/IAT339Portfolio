@@ -11,6 +11,7 @@ html,body{
   color: #3B3B3B;
 }
 
+/** Image **/
 
 img{
   width: 100%;
@@ -20,6 +21,7 @@ img{
   width: 30%;
 }
 
+/** Headers **/
 
 h1{
   font-family: 'Atten New', sans-serif;
@@ -45,6 +47,16 @@ h3{
   color: #3B3B3B;
 }
 
+h4{
+  font-family: 'Atten New', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #A3A3A3
+}
+
+/** Sections **/
+
 .description-white{
   background-color: white;
   padding: 3em;
@@ -65,6 +77,16 @@ h3{
   border-width: 1px;
 }
 
+.project-brief{
+  margin: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+
+}
+
+/** Links and Buttons **/
 
 button{
   background-color: #F09F3F;
