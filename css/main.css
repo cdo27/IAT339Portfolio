@@ -1,13 +1,36 @@
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.cdnfonts.com/css/adelle');
+@import url('https://fonts.cdnfonts.com/css/atten-new');
 
 body {
   background: white;
+  font-family: 'Atten New', sans-serif;
   font-size: 16px;
-  
+  color: #3B3B3B;
 }
 
 img{
-  width:100%;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Atten New', sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  color: #3B3B3B;
+}
+
+h2{
+  font-family: 'Atten New', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  color: #E1963D;
+}
+
+h3{
+  font-family: 'Atten New', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  color: #3B3B3B;
 }
