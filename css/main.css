@@ -120,8 +120,8 @@ h4{
 
 .project-brief{
   padding: 2em;
-  padding-top: 5em;
-  padding-bottom: 6em;
+  padding-top: 6em;
+  padding-bottom: 3em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -150,8 +150,8 @@ h4{
   width: 45%;
 }
 
-.project-detail{
-  width: 45%;
+.project-details{
+  width: 50%;
 }
 
 
