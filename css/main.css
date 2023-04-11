@@ -55,7 +55,7 @@ ul li a:hover{
 /** Image **/
 
 img{
-  width: 100%;
+  width: 100%
 }
 
 .basicimg{
@@ -204,4 +204,8 @@ a{
 a:hover{
   color: #3B3B3B;
   text-decoration: none;
+}
+
+input type[submit]{
+
 }
