@@ -9,45 +9,121 @@
   <body>
     <nav>
       <ul>   
-        <a href="home.html"><img class = "logo-img" src = "img/logo.png"></a>
+        <li><a href="home.html"><img class = "logo-img" src = "img/logo.png" alt="image of CD logo"></a></li>
         <div class = "nav-links">
           <li><a href="home.html">home</a></li>
           <li><a href="#works">works</a></li>
           <li><a href="contact.html">contact</a></li>
-      </div>
+        </div>
       </ul>
     </nav>
+    <div class = "spacer"></div>
+    <div class ="style-element">
+      <h1>Style Guide</h1>
+    </div>
 
-    <h1>Header 1</h1>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
-    <h4>Header 4</h4>
+    <div class ="style-element">
+      <h2>Headings</h2>
+      <div class = "style-line"></div>
+      <h1>Header 1</h1>
+      <h2>Header 2</h2>
+      <h3>Header 3</h3>
+      <h4>Header 4</h4>
+    </div>
 
-    <section class = "project-brief">
-      <img class = "basicimg" src="img/profile.png">
-      <div class="project-details">
-        <h3>DLDK Project</h3>
-        <p>DLDK user research and interviews to discover 
-          possible problem statements and opportunities.</p>
-          <button>About the Process</button>
-          <h4>Case Study, 2020</h4>
+    <div class ="style-element">
+      <h2>Paragraphs</h2>
+      <div class = "style-line"></div>
+      <h3>CSS selector:</h3>
+      <p>p</p>
+      <h3>Sample code:</h3>
+      <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</code>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Mauris ex erat, ultrices in volutpat eget, accumsan ut urna. 
+        Praesent vel augue sit amet enim pulvinar tempor. 
+        Fusce gravida lorem vitae lacus vulputate tempor. 
+        Ut non luctus orci. Curabitur cursus felis sit amet nibh dignissim, 
+        id dapibus enim sodales. Mauris in consectetur tortor, sed posuere nulla. 
+        Aliquam nunc turpis, placerat vitae metus at, laoreet bibendum neque. 
+        Integer justo orci, tempus sed ultrices a, porttitor at ipsum. 
+        Etiam sed lorem sit amet dolor faucibus accumsan. </p>
+    </div>
+
+    <div class ="style-element">
+      <h2>Button</h2>
+      <div class = "style-line"></div>
+      <h3>CSS selector:</h3>
+      <p>button</p>
+
+      <h3>Sample code:</h3>
+        <code>&lt;button&gt;Default Button&lt;/button&gt;</code>
+
+      <button>Default Button</button>
+    </div>
+
+    <div class ="style-element">
+      <h2>In-text Link</h2>
+      <div class = "style-line"></div>
+      <h3>CSS selector:</h3>
+        <p>a</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#"&gt;Text Link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="">Text Link</a>
+    </div>
+    <div class ="style-element">
+      <h2>Text Input Field</h2>
+      <div class = "style-line"></div>
+      <h3>CSS selector:</h3>
+        <p>input[type=text]</p>
+        <h3>Sample code:</h3>
+        <code>&lt;input type="text" name = "name" id = "text-name"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input type="text" name = "name" id = "text-name">
+    </div>
+
+    <div class ="style-element">
+      <h2>Navigation</h2>
+      <div class = "style-line"></div>
+      <nav>
+        <ul>   
+          <li><a href="home.html"><img class = "logo-img" src = "img/logo.png" alt="image of CD logo"></a></li>
+          <div class = "nav-links">
+            <li><a href="home.html">home</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <div class ="style-element">
+      <h2>Colors</h2>
+      <img class = "palette" src="img/colors.png" alt="color palette and combinations">
+    </div>
+
+    <footer>
+      <div class = "footer-element">
+        <h3>Home</h3>
+        <a href="home.html">home</a>
       </div>
-    </section>
-    
-    <section class = "description-white">
-      <h1>Description Section</h1>
-    </section>
-
-    <section class = "description-orange">
-      <h1>Description Section Orange</h1>
-    </section>
-
-    <button>Button Example</button>
-
-    <a href="url.com">in-text link</a>
-    <img class = "basicimg" src="img/profile.png">
-
-    <img src="img/styleguide.png">
+      <div class = "footer-element">
+        <h3>Projects</h3>
+        <a href="dldk.html">dldk project</a>
+        <a href="vancouverartgallery.html">vancouver art gallery project</a>
+      </div>
+      <div class = "footer-element">
+        <h3>Contact</h3>
+        <a href="contact.html">contact me</a>
+      </div>
+      <div class = "footer-element">
+        <h3>Styleguide</h3>
+        <a href="styleguide.html">styleguide</a>
+        <a href="citation.html">citations</a>
+      </div>
+    </footer>
 
 
 

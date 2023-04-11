@@ -174,6 +174,58 @@ h4{
   padding-right: 3em;
 }
 
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FFE5C6;
+  padding: 3em;
+  padding-bottom: 5em;
+  border: #3B3B3B;
+  border-style: solid;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-width: 1px;
+}
+
+.footer-element{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.style-element{
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
+
+.style-element p{
+  width: 40%
+}
+
+.style-element nav{
+  position: relative;
+  width:90%;
+  z-index: -1;
+}
+
+.palette{
+  width:80%;
+}
+
+
+.style-line{
+  border: #F09F3F;
+  border-style: solid;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-width: 1px;
+  width:90%;
+}
 
 
 /** Links and Buttons **/
@@ -239,8 +291,14 @@ input[type=submit]:hover{
   padding: 0.7em;
 }
 
+input[type=text]:focus{
+  outline: none !important;
+  border:1px solid #F09F3F;
+}
+
 #message{
   height:10em;
+  width: 80%;
 }
 
 .form{
@@ -248,3 +306,5 @@ input[type=submit]:hover{
   flex-wrap: wrap;
   flex-direction: column;
 }
+
+
