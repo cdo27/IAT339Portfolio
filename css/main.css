@@ -306,6 +306,26 @@ input[type=text]:focus{
   flex-direction: column;
 }
 
+@media screen and (max-width: 850px) {
+  .basicimg{
+    width: 60%;
+  }
+  .intro-details{
+    width: 60%;
+  }
+
+  #works{
+    display: flex;
+    flex: wrap;
+    padding-left: 12em;
+    padding-top: 1.2em;
+  }
+
+  .project-details{
+    width: 60%;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .basicimg{
