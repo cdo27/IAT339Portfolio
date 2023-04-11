@@ -109,10 +109,10 @@ h4{
   background-color: white;
   padding: 3em;
   border: #3B3B3B;
-  border-style: solid;
-  border-right: 0;
-  border-left: 0;
-  border-width: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .description-orange{
@@ -123,6 +123,10 @@ h4{
   border-right: 0;
   border-left: 0;
   border-width: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .project-brief{
@@ -160,6 +164,16 @@ h4{
 .project-details{
   width: 50%;
 }
+
+.spacer{
+  padding-top: 6em;
+}
+
+.project-text{
+  width: 40%;
+  padding-right: 3em;
+}
+
 
 
 /** Links and Buttons **/
