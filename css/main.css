@@ -206,6 +206,45 @@ a:hover{
   text-decoration: none;
 }
 
-input type[submit]{
+input[type=text] {
+  width: 40%;
+  height: 2.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 
+}
+
+input[type=submit] {
+  width: 15%;
+  background-color: #F09F3F;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0.7em;
+}
+
+
+input[type=submit]:hover{
+  width: 15%;
+  background-color: #3B3B3B;
+  color: white;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0.7em;
+}
+
+#message{
+  height:10em;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
