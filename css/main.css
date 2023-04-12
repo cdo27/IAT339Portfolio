@@ -229,7 +229,7 @@ footer{
 
 /** Links and Buttons **/
 
-button{
+.button-project{
   background-color: #F09F3F;
   color: white;
   border-style: none;
@@ -238,7 +238,7 @@ button{
   padding: 0.7em;
 }
 
-button:hover{
+.button-project:hover{
   background-color: #3B3B3B;
   color: white;
   border-style: none;
